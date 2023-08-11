@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./about-directory.component.scss']
 })
 export class AboutDirectoryComponent {
-
+  public showMail : boolean = false;
+  onClick(){
+    console.log("isndie")
+    this.showMail = !this.showMail;
+  }
 }

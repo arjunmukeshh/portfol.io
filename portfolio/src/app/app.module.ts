@@ -7,7 +7,7 @@ import { ProjectsDirectoryComponent } from './projects-directory/projects-direct
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FooterComponent } from './footer/footer.component';
 import { NavComponent } from './nav/nav.component';
-
+import {MatCheckboxModule} from '@angular/material/checkbox';
 @NgModule({
   declarations: [
     AppComponent,
@@ -19,6 +19,7 @@ import { NavComponent } from './nav/nav.component';
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
+    MatCheckboxModule,
     RouterModule.forRoot([
       {path: 'about', component: AboutDirectoryComponent},
       {path: 'projects', component: ProjectsDirectoryComponent},

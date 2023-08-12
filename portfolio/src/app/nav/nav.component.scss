@@ -1,0 +1,25 @@
+.navbar-nav a{
+    text-decoration:none !important;
+    color : black;
+    padding-left : 30px;
+}
+
+
+.navbar-nav {
+    color : black;
+    content : right;
+    margin-left: auto;
+    font-size: 28px;
+    margin-right : 150px;
+}
+
+.navbar-nav :hover{
+    color : orange;
+}
+.navbar-brand{
+    font-size : 32px;
+}
+
+*{
+    font-family:sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}

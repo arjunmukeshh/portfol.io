@@ -16,10 +16,22 @@
 .navbar-nav :hover{
     color : orange;
 }
+
+
 .navbar-brand{
     font-size : 32px;
 }
 
 *{
     font-family:sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.light-mode {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.dark-mode {
+    background-color: #1a1a1a;
+    color: #ffffff;
 }

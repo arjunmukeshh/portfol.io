@@ -8,6 +8,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FooterComponent } from './footer/footer.component';
 import { NavComponent } from './nav/nav.component';
 import {MatCheckboxModule} from '@angular/material/checkbox';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 @NgModule({
   declarations: [
     AppComponent,
@@ -25,6 +26,7 @@ import {MatCheckboxModule} from '@angular/material/checkbox';
       {path: 'projects', component: ProjectsDirectoryComponent},
       {path: '', redirectTo: '/about', pathMatch: 'full'},
     ]),
+    NgbModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

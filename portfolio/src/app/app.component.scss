@@ -2,3 +2,44 @@
     content: center;
     margin-top: 3em;
 }
+
+.navbar-nav a{
+    text-decoration:none !important;
+    padding-left : 30px;
+}
+
+
+.navbar-nav {
+    content : right;
+    margin-left: auto;
+    font-size: 28px;
+    margin-right : 150px;
+}
+
+.navbar-nav :hover{
+    color : orange;
+}
+
+
+.navbar-brand {
+    font-size : 32px;
+
+}
+
+*{
+    font-family:sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.light-mode {
+    background-color: #ffffff !important;
+    color: #000000 !important;
+    fill : black;
+}
+
+.dark-mode {
+    background-color: #1a1a1a !important;
+    color: #ffffff !important;
+    fill : white;
+}
+
+
